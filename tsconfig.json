@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"target":"es2020",
+		"module": "commonjs",
+		"baseUrl": "src",
+	},
+	"include": [
+		"src/**/*", "src/core/bot-roles.ts", "classes/base-command.ts", "classes/server-config.ts", "classes/classes"
+	],
+	"exclude": [
+		"node_modules/",
+		"**/*.spec.ts"
+	]
+}
